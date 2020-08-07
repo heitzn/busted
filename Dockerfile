@@ -15,6 +15,6 @@ COPY msmtprc.conf /etc/msmtprc
 #VOLUME /mnt/motion
 
 # For video streaming
-#EXPOSE 8081
+#EXPOSE 15722
 
 ENTRYPOINT ["motion"]
